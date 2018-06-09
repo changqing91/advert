@@ -10,7 +10,7 @@
               class="advert"
               v-for="(item, idx) in sciences"
               v-loading="loading"
-              element-loading-text="加载链上广告..."
+              element-loading-text="正在加载链上广告"
               element-loading-spinner="el-icon-loading"
               @click="gotoAd(item)"
               :style="{background: item.base64 ? `url(${item.base64}) 50% 50% / cover` : `url('../../static/images/${item.id}.jpg') 50% 50% / cover`}"

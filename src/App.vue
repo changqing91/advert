@@ -45,4 +45,13 @@ li {
 .el-container {
   flex-direction: column!important;
 }
+.el-loading-mask {
+  z-index: 2!important;
+}
+.upload-box .el-upload {
+  border: 1px solid #cecece!important;
+}
+.el-input__inner, .el-textarea__inner, .el-input-group__prepend {
+  border: 1px solid #cecece!important;
+}
 </style>

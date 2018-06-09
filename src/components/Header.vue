@@ -9,7 +9,7 @@
         </li>
         <li class="menu hide-in-mob"><router-link to="/" :class="{'active': activeMenu === 'index'}">首页</router-link></li>
         <li class="menu hide-in-mob"><router-link to="/intro" :class="{'active': activeMenu === 'intro'}">玩法介绍</router-link></li>
-        <li class="menu hide-in-mob"><router-link to="/team" :class="{'active': activeMenu === 'team'}">团队</router-link></li>
+        <li class="menu hide-in-mob"><router-link to="/team" :class="{'active': activeMenu === 'team'}">关于我们</router-link></li>
       </ul>
       <div :class="['menu-icon', menuActive ? 'active' : '']" @click="showMenus">
         <div class="menu-top"></div>
@@ -19,7 +19,7 @@
         <ul>
           <li class="menu"><router-link to="/" :class="{'active': activeMenu === 'index'}">首页</router-link></li>
           <li class="menu"><router-link to="/intro" :class="{'active': activeMenu === 'intro'}">玩法介绍</router-link></li>
-          <li class="menu"><router-link to="/team" :class="{'active': activeMenu === 'team'}">团队</router-link></li>
+          <li class="menu"><router-link to="/team" :class="{'active': activeMenu === 'team'}">关于我们</router-link></li>
         </ul>
       </div>
       <a class="sign-btn" @click="gotoSign" v-show="!hideSign">签到</a>
@@ -74,7 +74,7 @@ export default {
 .header {
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 9;
   height: 60px;
   display: flex;
   justify-content: space-between;

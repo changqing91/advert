@@ -4,44 +4,33 @@
       <adv-header></adv-header>
       <el-main class="container">
         <div class="description">
-          <h2>我们是谁？</h2>
-          <p>我们是一群富有激情并相信区块链未来的分布式团队，
+          <h2>关于我们</h2>
+          <p>我们是一个临时搭建的小组，但是我们希望将这样的模式延续下去，于是建立了 rune.one。通过rune.one作为核心组织，建立区块链应用的生态，
+            使应用与应用之间可以相互连接、共享流量。同时也希望建立一个相信区块链未来的分布式团队，虽然互相不那么熟知，但因为共同的目标走到一起。
+            单打独斗不如抱团取暖。
             区块链的时代已经迈开了第一步，未来已来。
             与其临渊羡鱼，不如投身入浪潮之中。</p>
           <p>我们相信：区块链的未来除了底层链网作为信任基建，
             更多的价值会体现在是否有足够多的“落地”应用，
             不再只是一个程序员自嗨的大玩具，底层链网决定了区块链的宽度，应用的成熟度决定了区块链行业的长度。我们希望帮助我们认可的底层链建设生态，在实现技术情怀的路上，同时将技术变现。</p>
-          <p>请原谅因为公司在职的身份，无法披露关于我们更多的信息。但是我想，事实上并不需要知道“我们”是谁，这不正像是区块链世界，每个人不知道对方是谁，通过区块链建立信任关系，因为有着共同目标走到一起。未来很长，我们需要路上有你在！</p>
+          <p>
+            希望越来越多的人能加入我们，让我们共同平分区块链所带来的红利！</p>
+            <p>联系邮箱：pandarenwilson@gmail.com</p>
         </div>
         <div class="grid">
           <figure>
-            <img alt="Wilson Hua" src="../../static/images/ic_user.png">
-            <div>Wilson Hua</div>
+            <img alt="Wilson" src="../../static/images/ic_user.png">
+            <div>Wilson</div>
             <figcaption>Engineering</figcaption>
           </figure>
           <figure>
-            <img alt="Liana Douillet Guzmán" src="../../static/images/ic_user.png">
-            <div>Marco Santori</div>
-            <figcaption>Engineering</figcaption>
+            <img alt="Marco" src="../../static/images/ic_user.png">
+            <div>Marco</div>
+            <figcaption>UI/UX</figcaption>
           </figure>
           <figure>
-            <img alt="Marco Santori" src="../../static/images/ic_user.png">
-            <div>Green Chang</div>
-            <figcaption>Engineering</figcaption>
-          </figure>
-          <figure>
-            <img alt="Matt Tuzzolo" src="../../static/images/ic_user.png">
-            <div>Matt Tuzzolo</div>
-            <figcaption>Engineering</figcaption>
-          </figure>
-          <figure>
-            <img alt="Chris Lavery" src="../../static/images/ic_user.png">
-            <div>Chris Lavery</div>
-            <figcaption>Engineering</figcaption>
-          </figure>
-          <figure>
-            <img src="../../static/images/ic_user.png" alt="Peter Wilson">
-            <div>Peter Smith</div>
+            <img alt="Green" src="../../static/images/ic_user.png">
+            <div>Green</div>
             <figcaption>Engineering</figcaption>
           </figure>
         </div>
