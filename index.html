@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>rune.one</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      (function () {
+        function setGridHeight() {
+          let clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+          let container = document.querySelector('.adverts')
+          let els = document.querySelectorAll('.advert')
+          if (!container) return
+          container.style.display = 'none'
+          els.forEach((item, idx) => {
+            let cardWidth, cardHeight
+            if (clientWidth > 960) {
+              if (idx >= 0 && idx < 4) {
+                cardWidth = (clientWidth - 80 - 3 * 5) / 4
+              } else if (idx >= 4 && idx < 9) {
+                cardWidth = (clientWidth - 80 - 4 * 5) / 5
+              } else if (idx >= 9 && idx < 15) {
+                cardWidth = (clientWidth - 80 - 5 * 5) / 6
+              } else if (idx >= 15 && idx < 22) {
+                cardWidth = (clientWidth - 80 - 6 * 5) / 7
+              } else if (idx >= 22 && idx < 30) {
+                cardWidth = (clientWidth - 80 - 7 * 5) / 8
+              }
+            } else if (clientWidth > 414 && clientWidth <= 736) {
+              cardWidth = (clientWidth - 80) / 2
+            } else if (clientWidth > 736 && clientWidth <= 960) {
+              cardWidth = (clientWidth - 80) / 3
+            } else {
+              cardWidth = clientWidth - 40
+            }
+            cardHeight = cardWidth * 9 / 16
+            item.style.height = cardHeight + 'px'
+            item.style.width = cardWidth + 'px'
+          })
+          container.style.display = 'block'
+        }
+        setTimeout(setGridHeight, 1)
+      })()
+    </script>
+    <script src="static/js/nebPay.js"></script>
+    <script src="static/js/nebulas.js"></script>
+    <script>
+      window.NebPay = require("nebpay");
+      window.nebulas = require("nebulas");
+    </script>
+  </body>
+</html>
